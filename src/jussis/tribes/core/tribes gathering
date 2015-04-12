@@ -1,0 +1,192 @@
+Tribes gathering
+
+Tribes: gathering is a multiplayer game where players try to survive and thrive as tribe
+and improve their position in it. As the players help the tribe overcome various challenges they contribute to the
+unique story of their tribe.
+
+While many other society-building games focus on technological, infrastructural and/or character building, the main theme
+of this game is the exploring of social roles, social standing and emergent social behaviour inside a community of humans.
+
+Main concepts, roughly in order of importance:
+
+Gathering
+The gathering is an event where the tribe members gather to one place. The gathering is a place to formalize social relationships,
+roles and settle conflicts and other issues. The issues are ultimately settled by vote.(TODO: leader, duel, other means? Who can suggest Issues, and how often?)
+
+    Example Issues:
+
+
+The Grind
+The grind is the period between gatherings. During grind the players can fulfill their roles by working. They can also socialize
+with other players to, for example, plan their work and the next gatherings.
+
+Story
+Even the best Tribes and Lineages fall sometimes, either disbanding due to internal dissonance or be engulfed by stronger cultures.
+What remains of them is stories. The game should formalize the journaling of the Tribe Story and Lineage stories.
+TODO: Do these have an effect on other aspects, or are these simply metaphors for points.
+
+Roles
+Usually, in MMORPGs for instance, players are basically free to pursue the career they wish. The character development tree or available experience
+might add constraints to the development of the character. In contrast, the limitations in tribesG arise from the fact that the role of tribe members
+should be accepted by the tribe. Ultimately the roles are assigned by the gathering. For example, some roles might be free to take (a hunter for example),
+but some roles might be limited in number (a shaman). If a player wishes to have a role which is already taken, he must take
+the issue to the gathering. The acceptance of the role by the tribe is measured by _role approval_ -rating.
+(TODO: Apprentices)
+
+Example roles:
+
+    Ruler (Big boss) aka leader, dictator, manager, champion, warlord:
+    Leader is a person responsible for the tribes' survival in the physical world. He coordinates everyday efforts such as food gathering, hunting, diplomacy and defence.
+    Rulers might need a special Item of significance.
+
+        - A Ruler can create objectives, which actors with suitable positions try to fulfill. If objectives are met, the actor(s) who
+        completed the objective and the leader who created the objective are rewarded. Objectives which no one even tries to complete
+        could result in some form of punishment for the leader.
+
+        - The Ruler can suggest specialty Issues(TODO: such as...)
+
+    Spiritual leader aka shaman, oracle, healer, enchanter, alchemist:
+    Whereas the ruler is concerned with physical matters, a spiritual leader is responsible for morale, storytelling
+    and spiritual direction. Shaman might need a special Item of significance.
+
+        - The Shaman has the power and responsibility to orchestrate Gatherings. He can, for example, decide on order of issues and time
+        for each issue resolvement.
+
+        - The Shaman can suggest speciality issues such as
+
+        - The Shaman can write down tribes' story, as cave paintings etc. (TODO: What effect does this have, the story should have some integral part of the game)
+
+    Gatherer aka scrounger, berry-picker etc: Gatherer is the most basic food producer. This role needs no previous experience or other approvement. The gatherer
+    goes out of the camp to gather edible plants and berries. Even later in more advanced tribes, the gatherer might be needed
+    to gather special materials such as medicinal herbs.
+
+    Hunter
+
+    Midwife
+
+
+Heritability and Lineage
+Player characters can be born, and they can die. Death is permanent. However, the characters have a chance for immortality - their children. Actors can
+have kids with other members of the tribe. When an actor dies, the player can choose to continue playing as a maturing child, thus building an ancestry. The ancestry
+of the PC has effect on his social standing and role performance. (TODO: Think about this. recessive genes? physical appearance? Can anyone continue a lineage,
+or only the players of the ancestry - gods?)
+
+Children are born from the bonding of two actors (different sex). Players can affect the bonding, but they cannot directly affect when
+children are born. This might be affected by factors such as available food,shelter and marriage ritual, however.
+
+Children are a common possession of the tribe. If an actor dies, he can choose to start a new character if there are available rituals.
+If he has descendants, he can choose to play as one.
+
+
+
+Places
+Game events, such as hunting, sleeping, and other everyday activities take place in a physical world. Instead of trying to strive
+for real world scale and absolute realism, the game should emphasis the social and functional view on world. This could mean for example,
+that hunting, gathering etc could take place in "the forest near the camp". The places of social and livelihood significance are called "Places" in this document.
+TODO: In some game implementations it could even be possible for the places to be named after player actions,
+ie. if players hunt somewhere, it becomes a hunting ground.
+
+
+Metaphors for Session Events:
+Being a multiplayer game with emphasis on emergent story and family lineage building, a single game (storyline) will probably span many gaming session.
+To enhance immersion, session states and meta-actions such as timeouts, kickbans, logins and logouts should be translated into
+game character action, for example, falling ill, exile, waking up, falling asleep ang going on mission
+
+Exile
+The gathering can choose to banish a character from the tribe. This translates to kickban. The character leaves and the player cannot
+continue this ancestry anymore. This fate is worse than death.
+
+Social effects
+TODO:
+
+Artistic guidelines:
+Regardless of how the game is finally implemented, the art should, instead of striving for absolute realism, try
+to capture the symbolic quality of the tribal social experience we humans, as a society, build around us. It could
+borrow concepts from the Expressionism movement, psychedelic arts etc. It should leave things open for imagination and impressions.
+
+Example influences:
+King of Dragon Pass
+Comics
+Expressionism
+Symbolism
+Giger
+
+(TODO: Someone who knows about this stuff should think about this. Anyway, the artistic style is heavily influenced by implementation style)
+
+
+Gameplay story 1, The First gathering:
+
+Abraham, Bill, Carol, Dick and Emily stare at each other warily. Outside it's storming - thunder rumbles in the distance and
+rain is pouring at constant rate. Bill, a Northerner, clutches his spear with the balanced grip of a trained warrior.
+Dick is rubbing his bruised, bearded chin. The bruise is fresh, a reminder from a punch thrown by Carol just moments earlier.
+Maybe it was well-deserved. After all, it was Dick who tried to take her tools, thinking they had been deserted.
+
+The situation was dangerous. Each of them had taken shelter from the storm in the same cave, falsely thinking it had been abandonded.
+In the same confined space, they are a definite danger to each other. Finally Emily gathers enough courage to speak:
+
+- "We have to cooperate. You all know we cannot make it on our own. This land is too inhospitable. We would starve. "
+- "Not to mention the wolves", adds Abraham. Almost on cue, the howl which had paused for a moment begins again.
+- "Deershit", cries Dick, starting to walk toward the exit. Just he reaches the cave opening, lightning strikes to a tree near
+the exit, illuminating even the farthest reaches of the cave. Everyone twitches. Being nearest to the tree, Dick falls to the ground,
+shaking from pure terror. The tree struck by lightning catches fire.
+
+- "I don't want to work with you either", says Carol, staring at trembling Dick. "But we just might need your hunting prowess".
+- "And you Carol can cook and gather edible plants, in the beginning at least", says Bill. "I know hunting well enough too,
+although my weapon skills are being wasted on hunting animals. I can help Dick with hunting and not thinking
+about leaving us too soon".
+
+The tree outside continues burning, defying the pouring rain.  Emily does not pay attention to the others, instead
+staring at the tree, her expression feverish:
+
+- "Truly this is a divination from the gods, a fortuitous omen for our future."
+- "I don't know", answers old Abraham warily. "This could also be a sign of disaster."
+
+Emily glances at Abraham but turns his gaze quickly back to the blazing trunk.
+
+- "It can't be. The gods have granted us fire. It is our duty to preserve it and the story of this gathering".
+
+She goes out and picks up burning branch from below the tree, returns inside and briskly walks to the back wall of the cave. With
+the charred, still flaming stick she quietly draws five shapes crudely resembling humans. Three men and two women around
+a burning tree. She turns back to Abraham:
+
+- "And it's your duty now to bring us enough wood to feed the fire - firewood. Otherwise the favor of gods is lost and we are sure to fall".
+
+Everyone looks at Emily, pondering this turn of events. A new tribe. New roles. Uncertain future. New Existence.
+
+- "Tribe Burning Tree", whispers Dick audibly, still visibly shaken from the the near-miss lightning strike.
+No one contests him, accepting the name of the tribe and their new roles as self-evident. For now.
+
+Tomorrow the Grind would begin.
+
+
+Gameplay story 2, The Grind:
+
+Gameplay story 3, Newcomers:
+
+Gameplay story 5, Conflicts arise:
+
+Gameplay story 6, ... and her mothers' eyes:
+
+Gameplay story 7, Neighbors:
+
+Gameplay story 8, Warpath:
+
+Gameplay story 9, The Story:
+
+-------------------------------------
+Idea bin:
+
+TODO: How to make lesser roles interesting to play?
+
+Dreamland? Dreamland could somehow be influenced by the gatherings of other tribes.
+
+Themes:
+Waterworld,
+Mad Max,
+Orcs!,
+Earth's Children,
+Space nomads
+
+- Should the relationships between individual actors be modelled, or not? Currently I think not.
+
+
