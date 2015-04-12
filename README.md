@@ -1,5 +1,5 @@
 # Tribes
-A game of social standing, comppetition and cooperation.
+A game of social standing, competition and cooperation.
 
 
 Tribes: gathering is a multiplayer game where players try to survive and thrive as tribe
