@@ -11,9 +11,12 @@ Main concepts, roughly in order of importance:
 
 Gathering
 The gathering is an event where the tribe members gather to one place. The gathering is a place to formalize social relationships,
-roles and settle conflicts and other issues. The issues are ultimately settled by vote.(TODO: leader, duel, other means? Who can suggest Issues, and how often?)
+roles and settle conflicts and other issues. These Rituals often consist of Issue settlement by vote.
 
-    Example Issues:
+The actors can suggest issues and rituals for the upcoming gathering. The type and number of issues in influenced by the actors' position in the tribe.
+(TODO: How the prevent the gathering from having 10+ trivial issues to decide?)
+
+    Example Issues and Rituals:
 
 
 The Grind
@@ -177,6 +180,8 @@ Gameplay story 9, The Story:
 Idea bin:
 
 TODO: How to make lesser roles interesting to play?
+
+TODO: Should the tribe be able to adopt leader, duel, and other means instead of voting as their mode of issue solving?
 
 TODO: Chat vs. abstract communication between players?
 
