@@ -7,9 +7,8 @@ unique story of their tribe.
 While many other society-building games focus on technological, infrastructural and/or character building, the main theme
 of this game is the exploring of social roles, social standing and emergent social behaviour inside a community of individuals.
 
-
-
 Main concepts, roughly in order of importance:
+
 
 Actors
 Individuals, or humans, in the tribe are characters played by a human player.  The belong to a tribe, and can work, gather and socialize during the game.
@@ -88,9 +87,11 @@ Example roles:
     goes out of the camp to gather edible plants and berries. Even later in more advanced tribes, the gatherer might be needed
     to gather special materials such as medicinal herbs.
 
-    Hunter
+    Hunter aka trapper aka ranger: is a food producer, who hunts edible animals
 
     Midwife
+
+    soldier
 
 
 Heritability and Lineage
@@ -106,7 +107,6 @@ Children are a common possession of the tribe. If an actor dies, he can choose t
 If he has descendants, he can choose to play as one.
 
 Lineage can be visualized by a family tree.
-
 
 
 Places
@@ -126,7 +126,7 @@ Exile
 The gathering can choose to banish a character from the tribe. This translates to kickban. The character leaves and the player cannot
 continue this ancestry anymore. This fate is worse than death.
 
-Social effects
+Social effects and symbols
 TODO:
 
 Artistic guidelines:
@@ -142,6 +142,18 @@ Symbolism
 Giger
 
 (TODO: Someone who knows about this stuff should think about this. Anyway, the artistic style is heavily influenced by implementation style)
+
+
+Major design decisions:
+
+- How the grind is implemented
+
+-If and how these issues should be modelled:
+*Individual relations
+*Relations of an individual within the tribe
+
+-How to make the players feel they and/or their tribe is making progress?
+
 
 
 Gameplay story 1, The First gathering:
