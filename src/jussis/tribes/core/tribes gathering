@@ -11,6 +11,9 @@ of this game is the exploring of social roles, social standing and emergent soci
 
 Main concepts, roughly in order of importance:
 
+Actors
+Individuals, or humans, in the tribe are characters played by a human player.  The belong to a tribe, and can work, gather and socialize during the game.
+
 Gathering
 The gathering is an event where the tribe members gather to one place. The gathering is a place to formalize social relationships,
 roles and settle conflicts and other issues. These Rituals often consist of Issue settlement by vote.
@@ -49,7 +52,6 @@ Story
 Even the best Tribes and Lineages fall sometimes, either disbanding due to internal dissonance or be engulfed by stronger cultures.
 What remains of them is stories. The game should formalize the journaling of the Tribe Story and Lineage stories.
 TODO: Do these have an effect on other aspects, or are these simply metaphors for points.
-
 
 Roles
 Usually, in MMORPGs for instance, players are basically free to pursue the career they wish. The character development tree or available experience
@@ -102,6 +104,8 @@ children are born. This might be affected by factors such as available food,shel
 
 Children are a common possession of the tribe. If an actor dies, he can choose to start a new character if there are available rituals.
 If he has descendants, he can choose to play as one.
+
+Lineage can be visualized by a family tree.
 
 
 
