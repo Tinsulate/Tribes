@@ -5,7 +5,9 @@ and improve their position in it. As the players help the tribe overcome various
 unique story of their tribe.
 
 While many other society-building games focus on technological, infrastructural and/or character building, the main theme
-of this game is the exploring of social roles, social standing and emergent social behaviour inside a community of humans.
+of this game is the exploring of social roles, social standing and emergent social behaviour inside a community of individuals.
+
+
 
 Main concepts, roughly in order of importance:
 
@@ -40,10 +42,14 @@ The Grind
 The grind is the period between gatherings. During grind the players can fulfill their roles by working. They can also socialize
 with other players to, for example, plan their work and the next gatherings.
 
+    Working: During the Grind, the actors can travel to a place to work. By working the actors usually produce or refine resources.
+    If there are multiple actors working in the same place, it can influence the outcome of the work (TODO: how?)
+
 Story
 Even the best Tribes and Lineages fall sometimes, either disbanding due to internal dissonance or be engulfed by stronger cultures.
 What remains of them is stories. The game should formalize the journaling of the Tribe Story and Lineage stories.
 TODO: Do these have an effect on other aspects, or are these simply metaphors for points.
+
 
 Roles
 Usually, in MMORPGs for instance, players are basically free to pursue the career they wish. The character development tree or available experience
