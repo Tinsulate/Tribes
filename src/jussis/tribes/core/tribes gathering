@@ -30,6 +30,7 @@ The actors can suggest issues and rituals for the upcoming gathering. The type a
             * burial
             * exile
             * conflict settlement
+            * marriage
 
         2. Rituals which influence the status of tribe in relation to the world.
             * Mandate raiding
@@ -37,7 +38,11 @@ The actors can suggest issues and rituals for the upcoming gathering. The type a
             * Division ritual
             * Travel ritual
 
+
         3. Rituals which influence the shape of the tribe, god-rituals.
+            * hunting ritual
+            * agriculture rituals
+            * health rituals
 
 
 The Grind
@@ -77,21 +82,21 @@ Example roles:
     and spiritual direction. Shaman might need a special Item of significance.
 
         - The Shaman has the power and responsibility to orchestrate Gatherings. He can, for example, decide on order of issues and time
-        for each issue resolvement.
+        for each issue resolvent.
 
-        - The Shaman can suggest speciality issues such as
+        - The Shaman can suggest speciality issues such as TODO:
 
         - The Shaman can write down tribes' story, as cave paintings etc. (TODO: What effect does this have, the story should have some integral part of the game)
 
-    Gatherer aka scrounger, berry-picker etc: Gatherer is the most basic food producer. This role needs no previous experience or other approvement. The gatherer
-    goes out of the camp to gather edible plants and berries. Even later in more advanced tribes, the gatherer might be needed
+    Gatherer aka scrounger, berry-picker etc: Gatherer is the most basic resource producer. This role needs no previous experience or other approval. The gatherer
+    goes out of the camp to gather edible plants and berries and pickable food etc. Even later in more advanced tribes, the gatherer might be needed
     to gather special materials such as medicinal herbs.
 
-    Hunter aka trapper aka ranger: is a food producer, who hunts edible animals
+    Hunter aka trapper aka ranger: Hunts animals for food, fur and other parts.
 
-    Midwife
+    Midwife does not produce anything, but takes care of the children in the tribe.
 
-    soldier
+    Soldier is responsible for the safety of the tribe. He scouts for danger, guards the camp and the land and raids enemies.
 
 
 Heritability and Lineage
@@ -153,6 +158,10 @@ Major design decisions:
 *Relations of an individual within the tribe
 
 -How to make the players feel they and/or their tribe is making progress?
+
+-Are resources common for the tribe or is private ownership possible?
+
+- Are custom roles necessary; are all roles custom?
 
 
 
@@ -218,13 +227,16 @@ Gameplay story 9, The Story:
 -------------------------------------
 Idea bin:
 
+TODO: sacrifices?
+
 TODO: How to make lesser roles interesting to play?
 
 TODO: Should the tribe be able to adopt leader, duel, and other means instead of voting as their mode of issue solving?
 
 TODO: Chat vs. abstract communication between players?
 
-TODO: Rules testing via learning algorithms? Ie Ai for every members, then see what strategies emerge as winners
+TODO: Rules testing via learning algorithms? Ie Ai for every members, then see what strategies emerge as winners. Or lock the AI for
+actors, then try to evolve ruleset.
 
 Dreamland? Dreamland could somehow be influenced by the gatherings of other tribes.
 
@@ -235,6 +247,5 @@ Orcs!,
 Earth's Children,
 Space nomads
 
-- Should the relationships between individual actors be modelled, or not? Currently I think not.
 
 
