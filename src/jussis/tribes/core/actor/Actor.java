@@ -1,6 +1,7 @@
 package jussis.tribes.core.actor;
 
 import jussis.tribes.core.mechanic.Effect;
+import jussis.tribes.core.mechanic.GameDateTime;
 import jussis.tribes.core.physical.Item;
 import jussis.tribes.core.story.ActorStory;
 
@@ -14,9 +15,9 @@ public class Actor {
     public Name name;
     public Look body;
 
-    //public DateTime born;
-    //public DateTime adulthoodRitual;
-    //public DateTime died;
+    public GameDateTime born;
+    public GameDateTime adulthoodRitual;
+    public GameDateTime died;
 
     public ActorStory story;
 
