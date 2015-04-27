@@ -4,10 +4,7 @@ package jussis.tribes.core.gathering;
 import jussis.tribes.core.actor.Actor;
 import jussis.tribes.core.mechanic.GameCalendar;
 import jussis.tribes.core.mechanic.GameDateTime;
-import jussis.tribes.core.physical.Place;
-import jussis.tribes.core.tribe.Tribe;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -18,31 +15,31 @@ public class Gathering {
 
     private GameCalendar calendar;
 
-    public final Place place;
-
-    public final Tribe tribe;
-
     public GameDateTime began;
     public GameDateTime ended;
 
     private final Collection<TribalIssue> issues = new ArrayList<>();
-    private final Collection<Actor> peoplePresent = new ArrayDeque<>();
+    private final Collection<Actor> peoplePresent;
 
-    public Gathering(GameCalendar calendar, Place place, Tribe tribe, GameDateTime time) {
+    public Gathering(GameCalendar calendar, Collection<Actor> peoplePresent) {
         this.calendar = calendar;
-        this.place = place;
-        this.tribe = tribe;
+        this.peoplePresent = peoplePresent;
     }
 
-    public static Gathering announceGathering(Place place, Tribe tribe, GameDateTime time, GameCalendar calendar) {
-        return new Gathering(calendar, place, tribe, time);
+    public static Gathering announceGathering(Collection<Actor> peoplePresent, GameCalendar calendar) {
+        return new Gathering(calendar, peoplePresent);
     }
 
     public void beginGathering() {
-        place.getHumansPresent();
+        assertGatheringStartable();
         began = calendar.now();
         resolveIssues();
         ended = calendar.now();
+    }
+
+    private void assertGatheringStartable() {
+        if (issues.isEmpty())
+            throw new IllegalStateException("No issues present");
     }
 
     public void addIssue(TribalIssue issue) {
