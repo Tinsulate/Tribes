@@ -3,6 +3,6 @@ package jussis.tribes.core.gathering;
 /**
  * Information about issue status
  */
-public enum IssueStatus {
+public enum Status {
     PROPOSED, IN_VOTE, RESOLVED
 }

@@ -8,22 +8,22 @@ public class TribalIssue {
 
     private final ProposalInfo proposal;
 
-    public IssueStatus status;
+    public Status status;
     public IssueOutcome outcome;
 
     public TribalIssue(String issueName, String issueDescription) {
-        this.status = IssueStatus.PROPOSED;
+        this.status = Status.PROPOSED;
         proposal = new ProposalInfo(issueName);
     }
 
     public ProposalInfo startProposal() {
-        status = IssueStatus.IN_VOTE;
+        status = Status.IN_VOTE;
         return proposal;
     }
 
     public void endProposal(IssueOutcome outcome) {
         this.outcome = outcome;
-        status = IssueStatus.RESOLVED;
+        status = Status.RESOLVED;
     }
 
     private class ProposalInfo {

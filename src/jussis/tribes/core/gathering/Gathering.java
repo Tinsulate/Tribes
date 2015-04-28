@@ -7,6 +7,7 @@ import jussis.tribes.core.mechanic.GameDateTime;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 
 /**
  * Gathering is a gathering of a tribe to the same Place to elect leaders, resolve problems, perform ceremonies etc.
@@ -18,22 +19,30 @@ public class Gathering {
     public GameDateTime began;
     public GameDateTime ended;
 
+    public Status status;
+
     private final Collection<TribalIssue> issues = new ArrayList<>();
     private final Collection<Actor> peoplePresent;
 
     public Gathering(GameCalendar calendar, Collection<Actor> peoplePresent) {
         this.calendar = calendar;
         this.peoplePresent = peoplePresent;
+        status = Status.PROPOSED;
     }
 
     public static Gathering announceGathering(Collection<Actor> peoplePresent, GameCalendar calendar) {
         return new Gathering(calendar, peoplePresent);
     }
 
-    public void beginGathering() {
+    public Collection<TribalIssue> beginGathering() {
         assertGatheringStartable();
+        status = Status.IN_VOTE;
         began = calendar.now();
-        resolveIssues();
+        return Collections.unmodifiableCollection(issues);
+    }
+
+    public void endGathering() {
+        status = Status.RESOLVED;
         ended = calendar.now();
     }
 
@@ -43,16 +52,15 @@ public class Gathering {
     }
 
     public void addIssue(TribalIssue issue) {
-
+        issues.add(issue);
     }
 
     public void removeIssue(TribalIssue issue) {
-
+        issues.remove(issue);
     }
 
-    private void resolveIssues() {
-        for (TribalIssue issue : issues) {
-            issue.resolve(peoplePresent);
-        }
+    public Collection<TribalIssue> getIssues() {
+        return Collections.unmodifiableCollection(issues);
     }
+
 }
